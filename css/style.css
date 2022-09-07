@@ -26,6 +26,8 @@ header{
     width: 100%;
     height: 2px;
     background-color: #ff4500;
+    margin-bottom: 10px;
+
   }
 
   .titulo{
@@ -37,13 +39,12 @@ header{
   }
 
 
-
 /* MENU */
 
   #linksMenuPrincipal {
     position: relative;
     left: 550px;
-    top: -100px;
+    /* top: -100px; */
     float: left;
     height: auto;
     width: 100%;
@@ -69,7 +70,9 @@ header{
     display:block;  
     color: #FF4500;
     text-decoration:none;
-    font-size: 12px; 
+    font-size: 15px;
+    font-family: "Roboco", sans-serif; 
+    font-weight: bold;
    
   }
   
@@ -111,5 +114,39 @@ header{
     background-image: url(/imagem/bg_principal.jpg);
   }
 
-  /* Horarios */
+  /* Sobre nós */
+
+ #SobreNos{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(249, 164, 164);
+ }
+ #SobreNos h1{
+    font-size: 50px;
+    color: #FF4500;
+ }
+ #p1{
+    width: 20%;
+ }
+ #p2{
+    width: 50%;
+ }
+
+ #ImgSN1{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    left: 100px;
+
+ }
+ #imgSN1 img{
+    width: 100%;
+ }
+ 
+  #imgSN2{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    left: 100px;
+  }
   
